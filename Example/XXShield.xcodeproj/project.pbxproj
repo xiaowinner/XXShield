@@ -304,6 +304,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ValiantCat;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = N5XKP8RSU6;
+					};
 					6003F5AD195388D20070C39A = {
 						LastSwiftMigration = 0900;
 						TestTargetID = 6003F589195388D20070C39A;
@@ -575,6 +578,7 @@
 			baseConfigurationReference = 24F7ABBBD291BB26F5220B32 /* Pods-XXShield_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N5XKP8RSU6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XXShield/XXShield-Prefix.pch";
 				INFOPLIST_FILE = "XXShield/XXShield-Info.plist";
@@ -590,6 +594,7 @@
 			baseConfigurationReference = 605E5EA041E249575181AD27 /* Pods-XXShield_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N5XKP8RSU6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XXShield/XXShield-Prefix.pch";
 				INFOPLIST_FILE = "XXShield/XXShield-Info.plist";
