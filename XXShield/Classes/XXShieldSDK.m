@@ -31,7 +31,7 @@
         [self registerNSNull];
     }
     if (ability & EXXShieldTypeKVO) {
-        [self registerKVO];
+//        [self registerKVO];
     }
     if (ability & EXXShieldTypeNotification) {
         [self registerNotification];
@@ -69,12 +69,12 @@
     });
 }
 
-+ (void)registerKVO {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        shield_hook_load_group(XXForOCString(ProtectKVO));
-    });
-}
+//+ (void)registerKVO {
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        shield_hook_load_group(XXForOCString(ProtectKVO));
+//    });
+//}
 
 + (void)registerNotification {
     static dispatch_once_t onceToken;
